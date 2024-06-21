@@ -1,0 +1,148 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "HelloWorldIntent",
+          "samples": [
+            "hola",
+            "como estás",
+            "di hola mundo",
+            "di hola",
+            "hola mundo"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "slots": [
+            {
+              "name": "numeroUno",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "numeroDos",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "SumaIntent",
+          "samples": [
+            "dame la suma de {numeroUno} y {numeroDos}",
+            "resultado de la suma de {numeroUno} mas {numeroDos}",
+            "dime la suma de {numeroUno} mas {numeroDos}",
+            "cual es la suma de {numeroUno} y {numeroDos}",
+            "suma {numeroUno} mas {numeroDos}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "numeroUno",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "numeroDos",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "RestaIntent",
+          "samples": [
+            "dame la resta de {numeroUno} menos {numeroDos}",
+            "cual es la resta de {numeroUno} menos {numeroDos}",
+            "dime la resta de {numeroUno} menos {numeroDos}",
+            "resultado de la resta de {numeroUno} menos {numeroDos}",
+            "resta {numeroUno} menos {numeroDos}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "numeroUno",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "numeroDos",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "DivisionIntent",
+          "samples": [
+            "dime la division de {numeroUno} entre {numeroDos}",
+            "dame la division de {numeroUno} entre {numeroDos}",
+            "divide {numeroUno} entre {numeroDos}",
+            "respuesta de la division de {numeroUno} entre {numeroDos}",
+            "resultado de la division de {numeroUno} entre {numeroDos}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "numeroUno",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "numeroDos",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "MultiplicacionIntent",
+          "samples": [
+            "cual es el resultado de la multiplicación de {numeroUno} por {numeroDos}",
+            "dame la multiplicación de {numeroUno} por {numeroDos}",
+            "dime la multiplicación de {numeroUno} por {numeroDos}",
+            "resultado de la multiplicacion de {numeroUno} por {numeroDos}",
+            "multiplica {numeroUno} por {numeroDos}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "base",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "exponente",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "PotenciaIntent",
+          "samples": [
+            "cual es el resultado de {base} elevado a {exponente}",
+            "eleva {base} a la potencia de {exponente}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "numero",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "LogaritmoIntent",
+          "samples": [
+            "dime el logaritmo natural de {numero}",
+            "cual es el logaritmo natural de {numero}",
+            "calcula el logaritmo natural de {numero}"
+          ]
+        }
+      ],
+      "types": [],
+      "invocationName": "calculadora abelardo"
+    }
+  }
+}
